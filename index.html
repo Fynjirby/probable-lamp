@@ -1,61 +1,81 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>probable-lamp</title>
-    <meta charset="utf-8">
-    <meta name="keywords" content="probable-lamp, программа, антивирус">
-    <meta name="description" content="Just lamp">
-    <style>
-        * {
-            font-size: x-large;
-            font-style: normal;
-            background-color: #ffe0a1;
-        }
-
-        .center {
-            text-align: center;
-            font-size: large;
-            color: rgb(171, 81, 255);
-        }
-
-        .footer {
-            font-size: small;
-            line-height: 1.5;
-            margin-left: auto;
-            margin-right: auto;
-            width: 7.5em;
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: #707070;
-            color: #fff;
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>probable-lamp</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #ffe0a1;
+    }
+    .footer {
+        font-size: small;
+        line-height: 1.5;
+        margin-left: auto;
+        margin-right: auto;
+        width: 7.5em;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #707070;
+        color: #fff;
+        text-align: center;
+    }
+    .search-engine {
+      display: inline-block;
+      margin: 10px;
+    }
+    .search-engine img {
+      width: 100px;
+      height: 100px;
+    }
+    .search-engine input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+    .search-engine button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+    .search-engine button:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
-
 <body>
-    <font face="Arial">
-        <div class="center">
-            <h1>probable-lamp</h1>
-        </div>
-    </font>
-    <footer>
-        <font face=Arial color="#577bff">
-            <div class="footer">
-                <a href="about.html"
-                    style="text-decoration: none; background-color: #707070; color: #fff; padding-left: 0px; font-size: larger;">About
-                    our
-                    lamp</a>
-
-                <a href="user-agreement.html"
-                    style="text-decoration: none; background-color: #707070; color: #fff; padding-left: 30px; font-size: larger;">User
-                    agreement</a>
-            </div>
-        </font>
-    </footer>
+  <h1 style="color: rgb(171, 81, 255)">probable-lamp</h1>
+  <div class="search-engine">
+    <form action="https://www.google.com/search" method="get">
+      <input type="text" name="q" placeholder="Search Google">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+  <div class="search-engine">
+    <form action="https://duckduckgo.com/" method="get">
+      <input type="text" name="q" placeholder="Search DuckDuckGo">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+  <footer>
+      <font face=Arial color="#577bff">
+          <div class="footer">
+              <a href="about.html"
+                  style="text-decoration: none; background-color: #707070; color: #fff; padding-left: 0px; font-size: larger;">About
+                  our
+                  lamp</a>
+          </div>
+      </font>
+  </footer>
 </body>
-
 </html>
