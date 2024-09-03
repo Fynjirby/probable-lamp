@@ -1,0 +1,28 @@
+* {
+    font-size: x-large;
+    font-style: normal;
+    background-color: #ffe0a1;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    color: #6ca877;
+}
+
+.back {
+    transition: 0.5s;
+    color: rgb(123, 156, 255);
+}
+
+.black {
+    color: #000;
+}
+
+.scode {
+    color: #b89b0d;
+    transition: 0.5s;
+}
+
+.back:hover, .scode:hover {
+    transform: scale(1.2);
+}
