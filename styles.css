@@ -18,6 +18,10 @@ body {
       color: #fff;
       text-align: center;
   }
+  .searcher{
+    display: grid;
+  }
+
   .search-engine {
     display: inline-block;
     margin: 10px;
@@ -25,13 +29,14 @@ body {
   .search-engine img {
     width: 40px;
     height: 40px;
-    vertical-align:bottom;
+    vertical-align: bottom;
   }
   .search-engine input[type="text"] {
-    width: 300px;
+    width: 400px;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 15px;
+    color:  #989898;
     border-color: #3A81F1;
     font-size: 16px;
   }
@@ -46,7 +51,7 @@ body {
     font-size: 16px;
   }
   .search-engine button:hover {
-    background-color: #45a049;
+    background-color: #33A852;
   }
 
   .empty {
