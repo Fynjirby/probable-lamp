@@ -1,115 +1,176 @@
+body {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: medium;
+  background-color: #ffe0a1;
+}
+
+.footer {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  font-size: medium;
+  line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  width: 7.5em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #707070;
+  color: #fff;
+  text-align: center;
+  transition: 1s;
+}
+
+.footer:hover {
+  transform: scale(1.2);
+}
+
+.search{
+  display: grid;
+}
+
+.logo {
+  color: #ab51ff;
+  font-size: 55px;
+  transition: 0.7s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.search-engine {
+  display: inline-block;
+  margin: 10px;
+}
+
+.search-engine img {
+  width: 40px;
+  height: 40px;
+  vertical-align: bottom;
+}
+
+.search-engine input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  background-color:  #fff4de !important;
+  border-color: #3A81F1;
+  border-width: 2.5px;
+  font-size: 16px;
+  font-family: "Nerko One", cursive, "Nunito", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.5s;
+}
+
+.search-engine input:hover {
+  transform: scale(1.02);
+}
+
+.search-engine button {
+  background-color: #3A81F1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  height: auto;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.5s; 
+}
+
+.search-engine button:hover {
+  background-color: #33A852;
+  transform: scale(1.1);
+}
+
+.links-text {
+  color: #33A852;
+}
+
+.div-img {
+  display: inline-block;
+}
+
+.div-img img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  transition: 0.5s;
+  display: inline;
+}
+
+.div-img img:hover {
+  transform: scale(1.3);
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
   body {
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    font-size: medium;
-    background-color: #ffe0a1;
+    font-size: small;
   }
 
   .footer {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
     font-size: medium;
-    line-height: 1.6;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    width: 7.5em;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #707070;
-    color: #fff;
-    text-align: center;
-    transition: 1s;
-  }
-
-  .footer:hover {
-    transform: scale(1.2);
-  }
-
-  .search{
-    display: grid;
-  }
-
-  .logo {
-    color: #ab51ff;
-    font-size: 55px;
-    transition: 0.7s;
-  }
-
-  .logo:hover {
-    transform: scale(1.2);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .search-engine {
-    display: inline-block;
-    margin: 10px;
-  }
-  .search-engine img {
-    width: 40px;
-    height: 40px;
-    vertical-align: bottom;
-  }
-  .search-engine input[type="text"] {
-    width: 400px;
-    padding: 10px;
-    margin-bottom: 5px;
-    border-radius: 15px;
-    background-color:  #fff4de !important;
-    border-color: #3A81F1;
-    border-width: 2.5px;
-    font-size: 16px;
-    font-family: "Nerko One", cursive, "Nunito", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    transition: 0.5s;
+    margin: 5px;
   }
 
-  .search-engine input:hover {
-    transform: scale(1.02);
+  .search-engine input[type="text"] {
+    width: 250px;
   }
 
   .search-engine button {
-    background-color: #3A81F1;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    height: auto;
-    cursor: pointer;
-    border-radius: 12px;
-    font-size: 16px;
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
-    font-style: normal;
-    transition: 0.5s; 
+    padding: 5px 10px;
   }
 
-  .search-engine button:hover {
-    background-color: #33A852;
-    transform: scale(1.1);
+  .div-img img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: x-small;
   }
 
-  .search-engine button:click
-
-  .div-img {
-    display: inline-block;
+  .footer {
+    font-size: small;
   }
 
-  .div-img img{
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-    transition: 0.5s;
-    display: inline;
+  .search-engine input[type="text"] {
+    width: 150px;
   }
 
-  .div-img img:hover {
-    transform: scale(1.3);
+  .search-engine button {
+    padding: 3px 5px;
+  }
+  
+  .links-text {
+    font-size: x-large;
   }
 
-  a {
-    text-decoration: none;
+  .div-img img {
+    width: 40px;
+    height: 40px;
   }
+}
