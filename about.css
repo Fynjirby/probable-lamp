@@ -1,21 +1,27 @@
 * {
-    font-size: x-large;
+    font-size: 3.5vh;
     font-style: normal;
     background-color: #ffe0a1;
     font-family: "Nerko One", cursive;
     font-weight: 400;
     text-decoration: none;
     text-align: center;
-    color: #6ca877;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .back {
-    transition: 0.5s;
     color: rgb(123, 156, 255);
+    transition: 0.5s;
 }
 
 .black {
     color: #000;
+    transition: 0.5s;
+}
+
+.green {
+    color: #6ca877;
+    transition: 0.5s;
 }
 
 .scode {
@@ -23,6 +29,26 @@
     transition: 0.5s;
 }
 
-.back:hover, .scode:hover {
+.mirror {
+    color: #cb49ff;
+    transition: 0.5s;
+}
+
+.inline {
+    display: inline-flex;
+    margin-bottom: -100px;
+}
+
+.separator {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.separator:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.back:hover, .scode:hover, .mirror:hover {
     transform: scale(1.2);
 }
