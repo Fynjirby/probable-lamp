@@ -9,7 +9,7 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.back {
+.backhome {
     color: rgb(123, 156, 255);
     transition: 0.5s;
 }
@@ -44,11 +44,11 @@
     margin-right: 20px;
 }
 
-.separator:hover{
+.separator:hover {
     transform: rotate(360deg);
     transition: 2s;
 }
 
-.back:hover, .scode:hover, .mirror:hover {
+.backhome:hover, .scode:hover, .mirror:hover {
     transform: scale(1.2);
 }
